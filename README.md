@@ -7,8 +7,6 @@ It includes surrounding context from the original source material for better com
 <p align=center><img width="466" height="45" alt="image" src="https://github.com/user-attachments/assets/001f2885-5dbb-48b2-9e31-1f6715427f09" /></p>
 
 ## Features
-There may be a couple of scripts out there that attempt to do this, but their output is rather basic. 
-This script goes beyond simple extraction.
 
 Nothing is more frustrating than an incomplete or old highlight which we cannot place in context. 
 
