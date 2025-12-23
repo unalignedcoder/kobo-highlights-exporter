@@ -1,5 +1,6 @@
+<p align=center>Why do we underline things in books we read, to then forget about them?</p>
+
 # Kobo Highlights Exporter
-Why do we underline things in books we read, to then forget about them?
 
 Ths script extracts highlight annotations and notes from Kobo e-reader devices and exports them as formatted HTML files organized by book.
 It includes surrounding context from the original source material for better comprehension. 
@@ -17,7 +18,7 @@ It includes surrounding context from the original source material for better com
 - USB cable to connect the Kobo device to your computer
 
 ## Compatibility
-The script is designed to work on Windows, macOs and Linux systems. But it was only tested on Windows 10 so far. Feedback on this will be really appreciated.
+The script is designed to work on Windows, macOS and Linux systems, but to be honest it was only tested on Windows 10... Feedback on this will be really appreciated.
 
 ## Installation
 1. Download `khe.py` to a dedicated folder on your local machine.
