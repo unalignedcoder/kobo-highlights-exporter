@@ -5,7 +5,7 @@ KOBO HIGHLIGHTS EXPORTER
 Version:        1.0.0
 Author:         Unaligned Coder
 Last Updated:   2025-12-22
-License:        MIT
+License:        APACHE
 
 DESCRIPTION:
     Extracts highlight annotations and notes from Kobo e-reader devices and
