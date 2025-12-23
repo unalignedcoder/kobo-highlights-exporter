@@ -7,10 +7,9 @@ It includes surrounding context from the original source material for better com
 <p align=center><img width="466" height="45" alt="image" src="https://github.com/user-attachments/assets/001f2885-5dbb-48b2-9e31-1f6715427f09" /></p>
 
 ## Features
-- Connects to Kobo e-readers via USB to access highlight data.
-- Extracts highlights, notes, and surrounding context from the Kobo database.
-- Generates well-structured HTML files for each book with highlights and notes.
-- Organizes exported files in a user-friendly directory structure.
+There are a couple of scripts out there that attempt to do this, but this script is fairly more intelligent in that it allows the user to extracts highlights, notes, and **surrounding context from the Kobo database.**
+Furthermore, it keeps track of the highlights that have already been exported, and will only extract new ones, until told otherwise.
+The script generates well-structured HTML files for each book with highlights and notes and organizes the exported files in a user-friendly directory structure.
 
 ## Requirements
 - Python 3.6 or higher (tested on Python 3.12)
