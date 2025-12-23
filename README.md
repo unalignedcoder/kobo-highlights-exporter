@@ -27,5 +27,5 @@ Extracts highlight annotations and notes from Kobo e-reader devices and exports 
 The script will detect the Kobo device, extract highlights and notes, and generate HTML files in the `Exported` directory.
 
 ## Output
-The exported HTML files will look like this:
+The exported HTML files will look like this: 
 
