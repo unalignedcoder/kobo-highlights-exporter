@@ -8,7 +8,7 @@ It includes surrounding context from the original source material for better com
 
 ## Features
 
-Nothing is more frustrating than an incomplete or old highlight which we cannot place in context. 
+Nothing is more frustrating than an incomplete or forgotten highlight which we cannot place in context. 
 
 This script allows the user to extracts highlights and notes, with **surrounding context from preceding sentences or paragraphs!**
 
@@ -37,7 +37,7 @@ The script is designed to work on Windows, macOS and Linux systems, but to be ho
    ```
 The script will detect the Kobo device, extract highlights and notes, and generate HTML files in the `Exported` directory.
 
-It will **never write anything on the device**, and, before reading its content, it will copy the kobo database locally.
+The script will **never write anything on the device**, and, before reading its content, it will copy the kobo database locally.
 
 ## Output
 The exported HTML files (one for each book, containing its notes and highlights) will look something like this: 
