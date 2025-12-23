@@ -20,7 +20,6 @@ The script generates well-structured HTML files for each book and organizes the 
 - Python 3.6 or higher (tested on Python 3.12)
 - BeautifulSoup4 library for HTML generation 
 - Kobo e-reader device (tested on Kobo Aura)
-- USB cable to connect the Kobo device to your computer
 
 ## Compatibility
 The script is designed to work on Windows, macOS and Linux systems, but to be honest it was only tested on Windows 10... Feedback on this will be really appreciated.
@@ -37,6 +36,8 @@ The script is designed to work on Windows, macOS and Linux systems, but to be ho
    python khe.py
    ```
 The script will detect the Kobo device, extract highlights and notes, and generate HTML files in the `Exported` directory.
+
+It will **never write anything on the device**, and, before reading its content, it will copy the kobo database locally.
 
 ## Output
 The exported HTML files (one for each book, containing its notes and highlights) will look something like this: 
