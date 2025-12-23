@@ -7,9 +7,16 @@ It includes surrounding context from the original source material for better com
 <p align=center><img width="466" height="45" alt="image" src="https://github.com/user-attachments/assets/001f2885-5dbb-48b2-9e31-1f6715427f09" /></p>
 
 ## Features
-There are a couple of scripts out there that attempt to do this, but this script is fairly more intelligent in that it allows the user to extracts highlights, notes, and **surrounding context from the Kobo database.**
+There may be a couple of scripts out there that attempt to do this, but their output is rather basic. 
+This script goes beyond simple extraction.
+
+Nothing is more frustrating than an incomplete or old highlight which we cannot place in context. 
+
+This script allows the user to extracts highlights and notes, with **surrounding context from preceding sentences or paragraphs!**
+
 Furthermore, it keeps track of the highlights that have already been exported, and will only extract new ones, until told otherwise.
-The script generates well-structured HTML files for each book with highlights and notes and organizes the exported files in a user-friendly directory structure.
+
+The script generates well-structured HTML files for each book and organizes the exported files in a user-friendly directory structure.
 
 ## Requirements
 - Python 3.6 or higher (tested on Python 3.12)
