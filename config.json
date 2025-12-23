@@ -1,10 +1,11 @@
 {
-    "kobo_drive": "P:/",
+    "kobo_drive": "",
     "temp_db_name": "kobo_temp.sqlite",
     "export_dir": "Exported",
     "context_paragraphs": 0,
     "context_words": 30,
     "max_context_words": 100,
     "last_exported_id": 0,
-    "open_folder_on_finish": true
+    "open_folder_on_finish": true,
+    "verbose": false
 }

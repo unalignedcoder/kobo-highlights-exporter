@@ -2,7 +2,7 @@
 ================================================================================
 KOBO HIGHLIGHTS EXPORTER
 ================================================================================
-Version:        1.0.0
+Version:        1.0.1
 Author:         Unaligned Coder
 Last Updated:   2025-12-22
 License:        APACHE
@@ -53,10 +53,13 @@ TROUBLESHOOTING:
       increase 'last_exported_id' in config.json
 
 RELEASE-NOTES:
+    • Editing README.md (v1.0.1 - 2025-12-23)
     - First version released with core functionality and logging.
 
 ================================================================================
 """
+
+
 import sqlite3, zipfile, os, re, json, shutil, subprocess
 from datetime import datetime
 from bs4 import BeautifulSoup, Comment
@@ -68,7 +71,7 @@ LOG_FILE = "export_history.log"
 # ============================================================================
 # LOGGING SYSTEM - Records all export operations -- with timestamps
 # ============================================================================
-def log(msg, level="INFO", verbose_flag=True):
+def log(msg, level="INFO", verbose=False):
     """
     Log messages to file always; log to console only if verbose_flag is True.
     Useful for keeping the terminal clean while maintaining a full history in the log file.
@@ -80,8 +83,8 @@ def log(msg, level="INFO", verbose_flag=True):
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(formatted_msg + "\n")
     
-    # Conditionally print to terminal
-    if verbose_flag:
+    # Logic: Show if user wants details OR if message is higher priority than INFO
+    if verbose or level != "INFO":
         print(formatted_msg)
 
 # ======================================================================================
@@ -101,11 +104,13 @@ def load_config():
         "max_context_words": 100,
         "last_exported_id": 0,
         "open_folder_on_finish": True,
-        "verbose": False  # New: Set to True to see detailed progress in terminal
+        "verbose": False
     }
     if os.path.exists(CONFIG_FILE):
         with open(CONFIG_FILE, "r") as f: return {**defaults, **json.load(f)}
     return defaults
+
+session_verbose = config.get("verbose", False)
 
 # ============================================================================
 # HIGHLIGHT PROCESSING - Wraps highlighted text in HTML <mark> tags
@@ -309,7 +314,7 @@ with open(CONFIG_FILE, "w") as f:
 
 # FINAL SUMMARY MESSAGE
 summary_msg = f"Exported {count_hl} highlights and {count_notes} notes from {len(books_seen)} books."
-log(f"Done. {summary_msg} Last ID: {max_id}", verbose_flag=False)
+log(f"Done. {summary_msg} Last ID: {max_id}", verbose_flag=True)
 
 # --- STEP 7: OPEN EXPORT FOLDER (Cross-Platform) ---
 if config["open_folder_on_finish"]:

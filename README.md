@@ -13,8 +13,11 @@ It includes surrounding context from the original source material for better com
 ## Requirements
 - Python 3.6 or higher (tested on Python 3.12)
 - BeautifulSoup4 library for HTML generation 
-- Kobo e-reader device
+- Kobo e-reader device (tested on Kobo Aura)
 - USB cable to connect the Kobo device to your computer
+
+## Compatibility
+The script is designed to work on Windows, macOs and Linux systems. But it was only tested on Windows 10 so far. Feedback on this will be really appreciated.
 
 ## Installation
 1. Download `khe.py` to a dedicated folder on your local machine.
