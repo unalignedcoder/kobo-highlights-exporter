@@ -1,10 +1,11 @@
 {
-    "kobo_drive": "P:/",
-    "temp_db_name": "kobo_temp.sqlite",
-    "export_dir": "Exported",
-    "context_paragraphs": 0,
-    "context_words": 30,
-    "max_context_words": 100,
-    "last_exported_id": 0,
-    "open_folder_on_finish": true
+    "kobo_drive": "", //The script will save here the path or mount point for the Kobo device
+    "temp_db_name": "kobo_temp.sqlite", // Temporary database name used during the export process
+    "export_dir": "Exported", // The subfolder within the script folder where the exported notes will be saved.
+    "context_paragraphs": 0, // Number of paragraphs to include as context around highlights
+    "context_words": 30, // Number of words to include as context around highlights. Valid if context_paragraphs is 0.
+    "max_context_words": 100, // Maximum number of words to include in context paragraphs to avoid overly long excerpts
+    "last_exported_id": 0, // Used to keep track of the last exported highlight ID. Reset to 0 if you want the script to export all highlights again.
+    "open_folder_on_finish": true, // Open the export folder when done
+    "verbose": false // Enable verbose logging for debugging purposes
 }
