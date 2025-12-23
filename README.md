@@ -37,7 +37,7 @@ The script is designed to work on Windows, macOS and Linux systems, but to be ho
    ```
 The script will detect the Kobo device, extract highlights and notes, and generate HTML files in the `Exported` directory.
 
-The script will **never write anything on the device**, and, before reading its content, it will copy the kobo database locally.
+The script will **never write anything on the Kobo device**, and, before reading its content, it will copy the Kobo database locally.
 
 ## Output
 The exported HTML files (one for each book, containing its notes and highlights) will look something like this: 
