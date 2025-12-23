@@ -1,4 +1,4 @@
-﻿# Kobo Highlights Exporter
+# Kobo Highlights Exporter
 Why do we underline things in books we read, to then forget about them?
 
 Ths script extracts highlight annotations and notes from Kobo e-reader devices and exports them as formatted HTML files organized by book.
