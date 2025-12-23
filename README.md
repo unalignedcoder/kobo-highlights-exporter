@@ -1,5 +1,8 @@
-﻿# kobo-highlights-exporter
-Why we underline things in books we read, to simply forget about them? Ths script extracts highlight annotations and notes from Kobo e-reader devices and exports them as formatted HTML files organized by book. It includes surrounding context from the original source material for better comprehension. 
+﻿# Kobo Highlights Exporter
+Why do we underline things in books we read, to then forget about them?
+
+Ths script extracts highlight annotations and notes from Kobo e-reader devices and exports them as formatted HTML files organized by book.
+It includes surrounding context from the original source material for better comprehension. 
 
 ## Features
 - Connects to Kobo e-readers via USB to access highlight data.
@@ -15,7 +18,7 @@ Why we underline things in books we read, to simply forget about them? Ths scrip
 
 ## Installation
 1. Download `khe.py` to a dedicated folder on your local machine.
-2. Intall BeautifulSoup4 if you haven't already: (`pip install beautifulsoup4`)
+2. Install BeautifulSoup4 if you haven't already: (`pip install beautifulsoup4`)
 
 ## Usage
 1. Connect your Kobo e-reader to your computer via USB.
@@ -35,5 +38,7 @@ The highlights can be see in yellow, while the rest is given for context.
 
 ## Configuration
 The user can choose how much context they need by editing either `context_paragraphs` or `context_words` in the `config.json` file. Such file is created the first time the script is run, and any modifications to it will be applied in subsequent runs.
+
+<p align=center>&#9786;</p>
 
 <p align=center>Why, thank you for asking!<br />👉 You can donate to all my projects <a href="https://www.buymeacoffee.com/unalignedcoder" target="_blank" title="buymeacoffee.com">here</a>👈</p>
