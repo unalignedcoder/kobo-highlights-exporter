@@ -38,10 +38,15 @@ The exported HTML files (one for each book, containing its notes and highlights)
 
 <img width="870" height="502" alt="image" src="https://github.com/user-attachments/assets/abd27326-6f77-44cf-a605-48f2d7e78806" />
 
-The highlights can be see in yellow, while the rest is given for context.
+The highlights can be seen in yellow, while the rest is given for context.
 
 ## Configuration
-The user can choose how much context they need by editing either `context_paragraphs` or `context_words` in the `config.json` file. Such file is created the first time the script is run, and any modifications to it will be applied in subsequent runs.
+By editing `config.json`, The user can choose how much context they need by editing either `context_paragraphs` or `context_words`.
+Other options are available as well (see picture below).
+The config file is created the first time the script is run, and any modifications to it will be applied in subsequent runs.
+
+<img width="697" height="607" alt="image" src="https://github.com/user-attachments/assets/a58da0c2-e879-42c3-8d4c-a0d25bcb1e35" />
+
 
 <p align=center>&#9786;</p>
 
