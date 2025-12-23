@@ -36,4 +36,6 @@ The highlights can be see in yellow, while the rest is given for context.
 ## Configuration
 The user can choose how much context they need by editing either `context_paragraphs` or `context_words` in the `config.json` file. Such file is created the first time the script is run, and any modifications to it will be applied in subsequent runs.
 
+### Contributing
+
 <p align=center>Why, thank you for asking!<br />👉 You can donate to all my projects <a href="https://www.buymeacoffee.com/unalignedcoder" target="_blank" title="buymeacoffee.com">here</a>👈</p>
