@@ -1,9 +1,10 @@
-<p align=center>Why do we underline things in books we read, to then forget about them?</p>
-
 # Kobo Highlights Exporter
 
 Ths script extracts highlight annotations and notes from Kobo e-reader devices and exports them as formatted HTML files organized by book.
-It includes surrounding context from the original source material for better comprehension. 
+It includes surrounding context from the original source material for better comprehension.
+
+
+<p align=center><img width="466" height="45" alt="image" src="https://github.com/user-attachments/assets/001f2885-5dbb-48b2-9e31-1f6715427f09" /></p>
 
 ## Features
 - Connects to Kobo e-readers via USB to access highlight data.
