@@ -10,7 +10,7 @@ It includes surrounding context from the original source material for better com
 
 Nothing is more frustrating than an incomplete or forgotten highlight which we cannot place in context. 
 
-This script allows the user to extracts highlights and notes, with **surrounding context from preceding sentences or paragraphs!**
+This script allows the user to extracts highlights and notes from their Kobo e-book reader, with **surrounding context from preceding sentences or paragraphs!**
 
 Furthermore, it keeps track of the highlights that have already been exported, and will only extract new ones, until told otherwise.
 
